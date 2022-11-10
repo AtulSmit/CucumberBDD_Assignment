@@ -26,7 +26,7 @@ public class SeleniumProject3 {
 		driver.findElement(By.name("firstname")).sendKeys("abc");//enter firstname
 		driver.findElement(By.name("lastname")).sendKeys("pqr");//enter lastname
 		driver.findElement(By.name("email")).sendKeys("abc@gmail.com"); //enter email if 
-		driver.findElement(By.id("username")).sendKeys("usermayuri"); //enter username 
+		driver.findElement(By.id("username")).sendKeys("usermayuri23"); //enter username 
 		driver.findElement(By.id("pass1")).sendKeys("password");//enter password
 		driver.findElement(By.id("pass2")).sendKeys("password");//enter confirm password
 		driver.findElement(By.name("submit")).click();
